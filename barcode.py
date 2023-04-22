@@ -41,8 +41,7 @@ while True:
             # Get the direction from the decoded data
             direction = int(data)
             print(f"Turn {direction} degrees")
-            # Uncomment the following line to draw a rectangle around the barcode
-            # cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
+            cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
     
     # Show the original frame and barcode detection
     cv2.imshow('Frame', frame)
