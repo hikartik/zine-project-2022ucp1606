@@ -1,1 +1,1 @@
-# zine-project-2022ucp1606
+Object Detection Program built using OpenCv library in Python 
